@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, width=device-width">
+    <title>Calculadora de Rectangulo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Calculadora de Rectangulo</h1>
+
+    <h2>Definicion de Rectangulo</h2>
+
+    <p>
+        El rectangulo es una figura geometrica que tiene
+        cuatro lados y cuatro angulos rectos.
+    </p>
+
+    <h2>Formulas</h2>
+
+    <p>Area = base × altura</p>
+    <p>Perimetro = 2 × base + 2 × altura</p>
+
+    <h2>Dibujo del Rectangulo</h2>
+
+    <form>
+        <label for="base">Ingrese base:</label>
+        <input type="number" id="base">
+
+        <br><br>
+
+        <label for="altura">Ingrese altura:</label>
+        <input type="number" id="altura">
+
+        <br><br>
+
+        <button type="button" onclick="calcular()">
+            CALCULAR
+        </button>
+    </form>
+
+    <p id="area"></p>
+    <p id="perimetro"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
